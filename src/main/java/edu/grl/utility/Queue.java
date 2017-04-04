@@ -28,4 +28,6 @@ public class Queue<T> {
         dblLinkList.removeItem(index);
         return obj;
     }
+
+    public long getSize(){return dblLinkList.getSize();}
 }

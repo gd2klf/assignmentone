@@ -192,7 +192,7 @@ public class DoubleLinkedList<T> {
         }
     }
 
-    public void removeMiddle(DoubleListNode<T> node) throws Exception {
+    private void removeMiddle(DoubleListNode<T> node) throws Exception {
         if( node == null)
             return;
 
@@ -223,5 +223,4 @@ public class DoubleLinkedList<T> {
 
         }
     }
-
 }
