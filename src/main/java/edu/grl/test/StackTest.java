@@ -16,6 +16,8 @@ public class StackTest {
         stack.push( testString );
         System.out.println("Add a string. isEmpty() returns:" + stack.isEmpty() );
 
+        stack.pop();
+
         System.out.println("Create a stack with 6 items from 1 to 6.");
         String testString1 = new String("Test String 1");
         stack.push( testString1 );
